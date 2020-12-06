@@ -7980,7 +7980,7 @@ union bdk_lmcx_ext_config2
                                                                  Only valid when LMC()_EXT_CONFIG2[SREF_AUTO_ENABLE] is set. */
         uint64_t sref_auto_enable      : 1;  /**< [ 21: 21](R/W) Enable automatic self-refresh mode.
                                                                  This field should only be set after initialization.
-                                                                 When set, software must not issue self refesh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
+                                                                 When set, software must not issue self refresh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
 
                                                                  Internal:
                                                                  FIXME The LMC_SEQ_SEL_E::SREF_ENTRY requirement can be removed in 98xx when bug28110 is closed. */
@@ -8097,7 +8097,7 @@ union bdk_lmcx_ext_config2
                                                                  Setting this field has priority over LMC()_CONFIG[EARLY_UNLOAD_D1_R1]. */
         uint64_t sref_auto_enable      : 1;  /**< [ 21: 21](R/W) Enable automatic self-refresh mode.
                                                                  This field should only be set after initialization.
-                                                                 When set, software must not issue self refesh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
+                                                                 When set, software must not issue self refresh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
 
                                                                  Internal:
                                                                  FIXME The LMC_SEQ_SEL_E::SREF_ENTRY requirement can be removed in 98xx when bug28110 is closed. */
@@ -8130,7 +8130,7 @@ union bdk_lmcx_ext_config2
                                                                  Only valid when LMC()_EXT_CONFIG2[SREF_AUTO_ENABLE] is set. */
         uint64_t sref_auto_enable      : 1;  /**< [ 21: 21](R/W) Enable automatic self-refresh mode.
                                                                  This field should only be set after initialization.
-                                                                 When set, software must not issue self refesh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
+                                                                 When set, software must not issue self refresh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
 
                                                                  Internal:
                                                                  FIXME The LMC_SEQ_SEL_E::SREF_ENTRY requirement can be removed in 98xx when bug28110 is closed. */
@@ -8269,7 +8269,7 @@ union bdk_lmcx_ext_config2
                                                                  Setting this field has priority over LMC()_CONFIG[EARLY_UNLOAD_D1_R1]. */
         uint64_t sref_auto_enable      : 1;  /**< [ 21: 21](R/W) Enable automatic self-refresh mode.
                                                                  This field should only be set after initialization.
-                                                                 When set, software must not issue self refesh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
+                                                                 When set, software must not issue self refresh enter commands (LMC_SEQ_SEL_E::SREF_ENTRY).
 
                                                                  Internal:
                                                                  FIXME The LMC_SEQ_SEL_E::SREF_ENTRY requirement can be removed in 98xx when bug28110 is closed. */
